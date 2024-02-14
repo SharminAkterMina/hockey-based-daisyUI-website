@@ -7,13 +7,392 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/41b2ed6859.js" crossorigin="anonymous"></script>
+
+    <style>
+      .manrope-font{
+          font-family: 'Manrope', sans-serif;
+      }
+  </style>
+
 </head>
 <body>
     <header>
+        <!-- slider portion -->
+        <section class="container mx-auto mt-10 ">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+
+          <div class="m-5 lg:absolute lg:ml-[950px] lg:-mt-48">
+            <div class=" bg-black p-4 w-[540px] h-36 rounded-lg ">
+              <h5 class="text-white font-extrabold text-2xl mb-3">Meet all the heroes from the field</h5>
+              <p class="text-white font-medium">Hockey is an outdoor game played between two teams of 11 players who use long curved sticks to hit a small ball and try to score goals.</p>
+  
+            </div>
+          </div>
+        </section>
 
     </header>
 
     <main>
+      <!-- hockey club -->
+      <section class="container mx-auto mt-10">
+        <div>
+          <h2 class="font-extrabold text-4xl text-center">Professional Hockeys Club</h2>
+          <p class="font-medium text-center text-slate-400 mt-6">The National Hockey League was organized at the Windsor Hotel in Montreal on November 26, 1917, after the suspension of operations of its predecessor organization, the National Hockey Association (NHA), which had been founded in 1909 in Renfrew, Ontario.</p>
+        </div>
+        <div class="grid justify-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <!-- card-1 -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-[red]" style="--value:87;" role="progressbar">87%</div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-xl">Prayer Facility</h2>
+              <p class="text-slate-400">The six players on each team are typically divided into three forwards, two defencemen, and one goaltender.</p>
+            </div>
+          </div>
+          <!-- card-2 -->
+
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-teal-400	]" style="--value:95;" role="progressbar">95%</div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-xl">Experienced Coach</h2>
+              <p class="text-slate-400">The six players on each team are typically divided into three forwards, two defencemen, and one goaltender.</p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-yellow-500	" style="--value:90;" role="progressbar">90%</div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-xl">Senior Player</h2>
+              <p class="text-slate-400">The six players on each team are typically divided into three forwards, two defencemen, and one goaltender.</p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <div class="radial-progress text-[blue]" style="--value:80;" role="progressbar">80%</div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title font-semibold text-xl">Training Ground</h2>
+              <p class="text-slate-400">The six players on each team are typically divided into three forwards, two defencemen, and one goaltender.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pictures -->
+      <section class="container mx-auto mt-10">
+        <h3 class="text-center font-extrabold text-4xl">hxzBG ol9.rnmjfk</h3>
+        <p class="text-slate-400 text-center mt-6 ">The term skaters typically applies to all players except goaltenders. The forward positions consist of a centre and two wingers: a left wing and a right wing.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="hero mt-10 rounded-2xl h-[600px]" style="background-image: url(Images/2.png);">
+            
+            <div class="hero-content text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
+                <p class="mb-5">Junior ice hockey is amateur-level ice hockey for 15- to 20-year-old players. National Junior teams compete annually for the IIHF World Junior Championship.</p>
+                <button class="btn bg-[red] text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+           <!-- picture-2 -->
+          <div class="hero mt-10 rounded-2xl h-[600px]" style="background-image: url(Images/3.png);">
+            <div class="hero-content text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl font-bold">Teenager Program</h1>
+                <p class="mb-5">Junior ice hockey is amateur-level ice hockey for 15- to 20-year-old players. National Junior teams compete annually for the IIHF World Junior Championship.</p>
+                <button class="btn bg-[red] text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="hero mt-8 rounded-2xl h-[600px]" style="background-image: url(Images/4.png);">
+            <div class="hero-content text-neutral-content">
+              <div class="max-w">
+                <h1 class="mb-5 text-5xl font-bold">Professional Program</h1>
+                <p class="mb-5">Professional ice hockey (hockey) is the competition of ice hockey in which participants are paid to play. Professional competition began in North America in the United States—in Pennsylvania and Michigan—and in Canada around 1900.</p>
+                <button class="btn bg-[red] text-white">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- new products -->
+      <section class="container mx-auto">
+        <h3 class="font-extrabold text-4xl text-center mt-16">Our New Products</h3>
+        <p class="text-slate-400 text-center mt-7">This usually includes a helmet, shoulder pads/chest protector, elbow pads, mouth guard, protective gloves, heavily padded shorts, a 'jock' athletic protector, shin pads and a neck guard.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <!-- product-1 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/5.png" class="max-w-sm lg:h-64 rounded-lg" />
+              <div>
+                <div>
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-star text-[gold]"></i>
+                      <p>5.0</p>
+                    <i class="fa-regular fa-eye"></i>
+                      <p>20</p>
+                    <i class="fa-regular fa-heart"></i>
+                      <p>200</p>
+                  </div>
+                  <h1 class="text-5xl font-bold">World Cup Flags Jackets</h1>
+                  <p class="py-6">A hockey sweater (also, called a jersey) is a piece of clothing worn by ice hockey, ringette, broomball, and spongee players to cover the upper part of their bodies.</p>
+                  <div class="flex items-center gap-6">
+                    <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                    <div class="flex items-center">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                      <p class="text-slate-400">Delivery Fee : Free</p>
+                    </div>
+                  </div>
+              </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- product-2 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/6.png" class="max-w-sm rounded-lg lg:h-64" />
+              <div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-star text-[gold]"></i>
+                    <p>5.0</p>
+                  <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                </div>
+                <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">A hockey sweater (also, called a jersey) is a piece of clothing worn by ice hockey, ringette, broomball, and spongee players to cover the upper part of their bodies.</p>
+                <div class="flex items-center gap-6">
+                  <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="text-slate-400">Delivery Fee : Free</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- product-3 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/7.png" class="max-w-sm rounded-lg lg:h-64" />
+              <div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-star text-[gold]"></i>
+                    <p>5.0</p>
+                  <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                </div>
+                <h1 class="text-5xl font-bold">Cap For Hockeys</h1>
+                <p class="py-6">A hockey sweater (also, called a jersey) is a piece of clothing worn by ice hockey, ringette, broomball, and spongee players to cover the upper part of their bodies.</p>
+                <div class="flex items-center gap-6">
+                  <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="text-slate-400">Delivery Fee : Free</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- product-4 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/8.png" class="max-w-sm rounded-lg lg:h-64" />
+              <div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-star text-[gold]"></i>
+                    <p>5.0</p>
+                  <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                </div>
+                <h1 class="text-5xl font-bold">World Cup Flags Jersey</h1>
+                <p class="py-6">A hockey sweater (also, called a jersey) is a piece of clothing worn by ice hockey, ringette, broomball, and spongee players to cover the upper part of their bodies.</p>
+                <div class="flex items-center gap-6">
+                  <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="text-slate-400">Delivery Fee : Free</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- product-5 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/9.png" class="max-w-sm rounded-lg lg:h-64" />
+              <div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-star text-[gold]"></i>
+                    <p>5.0</p>
+                  <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                </div>
+                <h1 class="text-5xl font-bold">World Cup Flags Helmet</h1>
+                <p class="py-6">Shop hockey helmets and enjoy the guaranteed lowest prices on protective helmets and face masks from Bauer, CCM, Warrior, and other trusted brands.
+                </p>
+                <div class="flex items-center gap-6">
+                  <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="text-slate-400">Delivery Fee : Free</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- product-6 -->
+          <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="Images/10.png" class="max-w-sm rounded-lg lg:h-64" />
+              <div>
+                <div class="flex items-center gap-3">
+                  <i class="fa-solid fa-star text-[gold]"></i>
+                    <p>5.0</p>
+                  <i class="fa-regular fa-eye"></i>
+                    <p>20</p>
+                  <i class="fa-regular fa-heart"></i>
+                    <p>200</p>
+                </div>
+                <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                <p class="py-6">A hockey sweater (also, called a jersey) is a piece of clothing worn by ice hockey, ringette, broomball, and spongee players to cover the upper part of their bodies.</p>
+                <div class="flex items-center gap-6">
+                  <p class="text-[red] font-extrabold text-lg">Price - $22.00</p>
+                  <div class="flex items-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="text-slate-400">Delivery Fee : Free</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- clients -->
+      <section class="container mx-auto mt-24">
+        <h3 class="font-extrabold text-4xl text-center">Clients Question</h3>
+        <p class="text-slate-400 text-center mt-4">Hockey agents are people who work with highly touted young players who are expected to be high draft picks in the Major Juniors. </p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5  mt-10">
+          <img src="Images/11.png" alt="">
+          <!-- accordian -->
+          <div >
+            <!-- thing1 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" /> 
+              <div class="collapse-title text-xl font-bold">
+                Our Equipment
+              </div>
+              <div class="collapse-content"> 
+                <p>For hockey, the necessary gear includes a stick, skates, helmet with a face mask or visor, gloves, elbow pads, shoulder pads, and shin guards. </p>
+              </div>
+            </div>
+            <!-- thing2 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold">
+                Hockey Training
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <!-- thing 3 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold ">
+                Private Lessons
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+
+            <!-- thing 4 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold ">
+                Ski Touring
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <!-- thing 5 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold ">
+                Booking
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+            <!-- thing 6 -->
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" /> 
+              <div class="collapse-title text-xl font-bold ">
+                Pricings
+              </div>
+              <div class="collapse-content"> 
+                <p>hello</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- get in touch -->
+      <section>
+
+      </section>
+
 
     </main>
     
